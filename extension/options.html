@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat On Steroids · Remote bridge</title>
+    <link rel="stylesheet" href="options.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div>
+          <p class="eyebrow">Chat On Steroids companion</p>
+          <h1>Remote browser bridge</h1>
+        </div>
+        <span class="badge">Optional</span>
+      </header>
+
+      <p class="intro">
+        Use this only when ChatGPT is open in this browser but Chat On Steroids is running on another machine.
+        Leave it disabled for the normal same-machine setup.
+      </p>
+
+      <form id="remoteForm">
+        <label>
+          <span>Bridge URL</span>
+          <input id="remoteUrl" type="url" inputmode="url" placeholder="http://100.64.0.12:8770" spellcheck="false" />
+          <small>The URL of the authenticated remote bridge sidecar. A path prefix is allowed.</small>
+        </label>
+
+        <label>
+          <span>Remote secret</span>
+          <input id="remoteSecret" type="password" minlength="32" autocomplete="new-password" placeholder="At least 32 characters" />
+          <small>This authenticates the browser-to-machine network hop. It is separate from the app's normal bridge token.</small>
+        </label>
+
+        <div class="actions">
+          <button id="saveBtn" type="submit">Save remote bridge</button>
+          <button id="testBtn" type="button" class="secondary">Test connection</button>
+          <button id="clearBtn" type="button" class="ghost">Use local bridge</button>
+        </div>
+      </form>
+
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+
+      <section class="security">
+        <h2>Security model</h2>
+        <p>
+          Remote mode does not expose the MCP server or bypass conversation identity. The browser still receives the
+          normal app bearer token through <code>/pair</code>; the remote secret only gates the additional network hop.
+        </p>
+        <p>
+          Prefer an encrypted private network such as Tailscale, or put the sidecar behind HTTPS. The extension asks
+          Chrome for access only to the exact origin you save here.
+        </p>
+      </section>
+    </main>
+    <script type="module" src="options.js"></script>
+  </body>
+</html>

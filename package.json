@@ -18,6 +18,7 @@
     "icon": "node scripts/make-icon.mjs",
     "tunnel": "node scripts/fetch-tunnel-client.mjs",
     "rg": "node scripts/fetch-ripgrep.mjs",
+    "bridge:remote": "node scripts/remote-browser-bridge.mjs",
     "packaging:prepare": "node scripts/prepare-packaging-native.mjs",
     "dist": "npm run icon && npm run tunnel && npm run rg && npm run packaging:prepare && electron-vite build && electron-builder --win --x64 --arm64 --publish never",
     "dist:x64": "npm run icon && npm run tunnel && npm run rg && npm run packaging:prepare && electron-vite build && electron-builder --win --x64 --publish never",
